@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A3C5340CBFEFC74411BE19D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A3C5340CBFEFC74411BE19D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		49E47E1004EC15C4341C706D /* Pods_RxHubConnection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxHubConnection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8B4DD6899ED52E1F4057EE /* Pods-RxHubConnection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxHubConnection_Example.release.xcconfig"; path = "Target Support Files/Pods-RxHubConnection_Example/Pods-RxHubConnection_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57B76429E694B9364AA3F43C /* RxHubConnection.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RxHubConnection.podspec; path = ../RxHubConnection.podspec; sourceTree = "<group>"; };
+		57B76429E694B9364AA3F43C /* RxHubConnection.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxHubConnection.podspec; path = ../RxHubConnection.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RxHubConnection_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxHubConnection_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* RxHubConnection_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxHubConnection_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6474FD9F9B7E5BCDE6FDBFD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6474FD9F9B7E5BCDE6FDBFD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7699103646AA95C464269DC3 /* Pods-RxHubConnection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxHubConnection_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RxHubConnection_Tests/Pods-RxHubConnection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		81D963EE3C6F24E3E318551C /* Pods-RxHubConnection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxHubConnection_Tests.release.xcconfig"; path = "Target Support Files/Pods-RxHubConnection_Tests/Pods-RxHubConnection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		94257D7C621453CFBE6AEE23 /* Pods_RxHubConnection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxHubConnection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				7699103646AA95C464269DC3 /* Pods-RxHubConnection_Tests.debug.xcconfig */,
 				81D963EE3C6F24E3E318551C /* Pods-RxHubConnection_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -480,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxHubConnection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxHubConnection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
