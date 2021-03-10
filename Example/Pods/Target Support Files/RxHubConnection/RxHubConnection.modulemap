@@ -1,0 +1,6 @@
+framework module RxHubConnection {
+  umbrella header "RxHubConnection-umbrella.h"
+
+  export *
+  module * { export * }
+}
