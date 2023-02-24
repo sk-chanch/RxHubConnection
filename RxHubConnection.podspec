@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxHubConnection'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'HubConnection with RxSwift'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sk-chanch/RxHubConnection.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'RxHubConnection/Classes/**/*'
   
@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
-  s.dependency 'SwiftSignalRClient'
+  s.dependency 'SwiftSignalRClient', '~> 0.9.2'
   
   
   

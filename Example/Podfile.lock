@@ -1,16 +1,37 @@
 PODS:
-  - RxHubConnection (0.1.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxHubConnection (1.0.3):
+    - RxCocoa
+    - RxSwift
+    - SwiftSignalRClient
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SwiftSignalRClient (0.9.2)
 
 DEPENDENCIES:
   - RxHubConnection (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftSignalRClient
 
 EXTERNAL SOURCES:
   RxHubConnection:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxHubConnection: 5c0539aa54aac45999f7dd155e2d8f8b7ca1d3f3
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxHubConnection: 725397ccebebe207c82a4b687ee9367512c94f3d
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftSignalRClient: 62963a15c867c40551ca96ce6b3cf6a8814a2f89
 
-PODFILE CHECKSUM: 1381a561c1eaad9a8bc6c70a5b8263daf834fb9c
+PODFILE CHECKSUM: 0cacc6a5064e84586a496ad36258d7ddfaaa1116
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

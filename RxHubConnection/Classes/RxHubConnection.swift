@@ -10,7 +10,7 @@
 import Foundation
 import RxSwift
 import RxCocoa
-import SignalRClient
+import SwiftSignalRClient
 
 extension HubConnection: HasDelegate {
     public typealias Delegate = HubConnectionDelegate
