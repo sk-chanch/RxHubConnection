@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/moozzyk/SignalR-Client-Swift.git",
         "state": {
           "branch": null,
-          "revision": "e70c77151872a4f973fe1c10376980b0db3fa4b2",
-          "version": "0.9.0"
+          "revision": "2e1465d16f2489c70f8925568130d04cb1f17049",
+          "version": "0.9.4"
         }
       }
     ]

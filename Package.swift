@@ -11,9 +11,9 @@ let package = Package(
             targets: ["RxHubConnection"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git"),
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
         
-        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git")
+            .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", .upToNextMinor(from: "0.9.4"))
        
     ],
     targets: [
